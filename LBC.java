@@ -1,8 +1,8 @@
 import java.util.*;
-public class LBC {
-
-	public static void main(String[] args) {
-		
+public class LBC 
+{
+	public static void main(String[] args) 
+	{
 		int bktcap,remain=0,n,dr,i,total,op;
 		Scanner s=new Scanner(System.in);
 		System.out.println("ENTER THE BUCKET CAPACITY : ");
@@ -46,8 +46,6 @@ public class LBC {
 				System.out.println("REMAINING CAPACITY IS : "+remain);
 			}
 		}
-		
-		
+		s.close();	
 	}
-
 }

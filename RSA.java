@@ -57,3 +57,17 @@ public class RSA {
 		return 0;
 	}
 }
+
+/*
+OUTPUT :
+ENTER TWO PRIME NO. : 
+3 11
+ENTER A VALUE FOR e : 
+3
+VALUE OF D : 7
+ENTER PLAIN TEXT (NUMBER) : 
+9
+CIPHER TEXT IS : 3
+DECRYPTED TEXT : 9
+TEXT MATCHED
+*/

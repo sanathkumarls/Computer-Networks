@@ -1,3 +1,5 @@
+//write a java program for simple RSA algorithm o encrypt and decrypt the data
+
 import java.util.*;
 public class RSA {
 

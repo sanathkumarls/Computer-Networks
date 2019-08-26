@@ -1,3 +1,5 @@
+//write a java program for congestion control using leaky bucket algorithm
+
 import java.util.*;
 public class LBC 
 {

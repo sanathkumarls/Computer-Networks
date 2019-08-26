@@ -1,11 +1,10 @@
 //write a java program for error detecting code using CRC-CCITT(16 bits)
 
 import java.util.*;
-public class CRC {
-
+public class CRC 
+{
 	public static void main(String[] args) 
 	{
-		
 		int n,m,i,len;
 		Scanner s=new Scanner(System.in);
 		System.out.println("ENTER THE NO. OF DATA BITS : ");

@@ -9,7 +9,7 @@ public class LBC
 		Scanner s=new Scanner(System.in);
 		System.out.println("ENTER THE BUCKET CAPACITY : ");
 		bktcap=s.nextInt();
-		System.out.println("ENTER THE NO. OF PACKETS ; ");
+		System.out.println("ENTER THE NO. OF PACKETS : ");
 		n=s.nextInt();
 		int pkt[]=new int[n+1];
 		System.out.println("ENTER THE OUTPUT DATARATE :");

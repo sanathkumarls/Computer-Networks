@@ -1,10 +1,10 @@
 //write a java program for simple RSA algorithm o encrypt and decrypt the data
 
 import java.util.*;
-public class RSA {
-
-	public static void main(String[] args) {
-		
+public class RSA 
+{
+	public static void main(String[] args) 
+	{	
 		int p,q,fi,n,e,d;
 		Scanner s=new Scanner(System.in);
 		System.out.println("ENTER TWO PRIME NO. : ");

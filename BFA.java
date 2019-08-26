@@ -1,4 +1,4 @@
-//Write a java program to find the shortest path between vertices using bellman-ford
+//Write a java program to find the shortest path between vertices using bellman-ford algorithm
  
 import java.util.*;
 public class BFA 
@@ -36,21 +36,25 @@ public class BFA
 			for(j=1;j<=n;j++)
 			{
 				for(k=1;k<=n;k++)
+				{
 					if(a[j][k] != max)
 					{
 						if(b[k] > b[j] + a[j][k])
 							b[k]=b[j] + a[j][k];
-					}		
+					}
+				}				
 			}
 		}
 		for(j=1;j<=n;j++)
 		{
 			for(k=1;k<=n;k++)
+			{
 				if(a[j][k] != max)
 				{
 					if(b[k] > b[j] + a[j][k])
 						System.out.println("NEGATIVE EDGE CYCLE");
-				}
+				}	
+			}
 		}
 		for(i=1;i<=n;i++)
 			System.out.println("MINIMUM DISTANCE FROM NODE "+i+" TO NODE "+d+" IS "+b[i]);
